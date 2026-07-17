@@ -1,0 +1,14 @@
+[
+  {
+    "code": "en",
+    "name": "English (US)",
+    "local": true,
+    "url": ""
+  },
+  {
+    "code": "hi",
+    "name": "हिन्दी (Hindi)",
+    "local": false,
+    "url": "https://raw.githubusercontent.com/Kasset-Digital/kasset-audio-locales/refs/heads/main/hi.json"
+  }
+]
