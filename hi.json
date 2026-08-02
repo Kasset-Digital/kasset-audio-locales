@@ -35,7 +35,9 @@
         "subtitle": "एप्लिकेशन एस्थेटिक और हार्डवेयर स्टाइल कस्टमाइज़ करें।",
         "failed_sync_pro": "प्रो कैटलॉग सिंक करने में विफल",
         "tap_to_retry": "पुनः प्रयास करने के लिए टैप करें",
-        "offline": "📡 ऑफ़लाइन - और थीम देखने के लिए कनेक्ट करें",
+        "offline": "ऑफ़लाइन",
+        "load_pro": "प्रो थीम्स ब्राउज़ करने के लिए कनेक्ट करें",
+        "restore_pro": "थीम्स रीस्टोर करने के लिए कनेक्ट करें",
         "marketplace": "🛒 थीम मार्केटप्लेस"
       },
       "dashboard": {
@@ -213,7 +215,13 @@
         "wake_lock_title": "[बैकग्राउंड सर्विस चालू]",
         "wake_lock_desc": "आप ऐप को मिनिमाइज कर सकते हैं या स्क्रीन बंद कर सकते हैं। कृपया स्कैन पूरा होने तक KASSET ऐप को फोर्स-क्विट न करें।",
         "last_sync": "अंतिम पूर्ण सिंक: {{date}}",
-        "loader_title": "हार्डवेयर मॉड्यूल स्कैन कर रहा है"
+        "loader_title": "हार्डवेयर मॉड्यूल स्कैन कर रहा है",
+        "notif_traversing": "निर्देशिकाएं पार कर रहा है: {{dirs}} [{{time}}]",
+        "notif_extracting": "{{tracks}} / {{total}} ट्रैक निकाले गए [{{time}}]",
+        "notif_extracting_artwork": "सुनने के लिए तैयार! कलाकृति निकाली जा रही है... [{{resolved}} / {{total}}]",
+        "notif_cleaning": "डेटाबेस साफ़ किया जा रहा है... [{{time}}]",
+        "notif_complete_title": "डायग्नोस्टिक: स्कैन पूर्ण",
+        "notif_complete_body": "ट्रैक: {{tracks}} | निर्देशिकाएं: {{dirs}} | सेंसर ट्रैक: {{censoredTracks}} | सेंसर निर्देशिकाएं: {{censoredDirs}} | समय: {{time}}"
       },
       "dsp": {
         "title": "ऑन-डिवाइस स्मार्ट मिक्स",
@@ -266,7 +274,8 @@
         "censor_toast": "आर्काइव क्वारंटाइन कर दिया गया",
         "units": "इकाइयां",
         "unit": "इकाई",
-        "censor": "सेंसर करें"
+        "censor": "सेंसर करें",
+        "album_art_placeholder": "सामान्य एल्बम कला प्लेसहोल्डर"
       },
       "tabs": {
         "artists": "कलाकार",
@@ -700,7 +709,8 @@
       "offline_error": "भाषा डाउनलोड करने के लिए ऑनलाइन होना चाहिए।",
       "close": "बंद करें (CLOSE)",
       "uplink_failed": "अपलिंक विफल (UPLINK FAILED)",
-      "download_failed": "डाउनलोड विफल (DOWNLOAD FAILED)"
+      "download_failed": "डाउनलोड विफल (DOWNLOAD FAILED)",
+      "refresh_success": "भाषा सफलतापूर्वक अपडेट की गई"
     },
     "force_update": {
       "title": "गंभीर त्रुटि",
@@ -761,5 +771,20 @@
     "qnext_loop_search_reaction": "क्यू रूटिंग आपके हाल के खोज परिणामों के माध्यम से लगातार लूप करेगी।",
     "qstop_search_reaction": "आपके हाल के खोज परिणामों को पूरा करने के बाद प्लेबैक पूरी तरह से बंद हो जाएगा।",
     "loop_search_reaction": "आपकी हाल की खोज से इस विशिष्ट ट्रैक को लूप कर रहा है।"
+  },
+  "playback_errors": {
+    "too_many_corrupt": "बहुत सी खराब फ़ाइलें। प्लेबैक रोक रहा हूँ।",
+    "drive_disconnected": "स्टोरेज ड्राइव डिस्कनेक्ट हो गई या फ़ाइलें स्थानांतरित कर दी गईं।",
+    "drive_disconnected_toast": "{{count}} ट्रैक छोड़े गए: ड्राइव डिस्कनेक्ट हो गई",
+    "drive_disconnected_toast_single": "ड्राइव डिस्कनेक्ट हो गई या फ़ाइल स्थानांतरित कर दी गई।",
+    "files_corrupted": "कई ऑडियो फ़ाइलें खराब हैं।",
+    "files_corrupted_toast": "{{count}} ट्रैक छोड़े गए: फ़ाइलें खराब हैं",
+    "files_corrupted_toast_single": "ऑडियो फ़ाइल खराब है। छोड़ रहा हूँ...",
+    "files_unavailable": "कई ट्रैक अनुपलब्ध हैं या खराब हैं।",
+    "files_unavailable_toast": "{{count}} ट्रैक छोड़े गए: फ़ाइलें अनुपलब्ध हैं",
+    "file_not_found": "\"{{title}}\" के लिए फ़ाइल नहीं मिल सकी।",
+    "file_appears_corrupt": "\"{{title}}\" के लिए फ़ाइल खराब प्रतीत होती है।",
+    "track_skipped": "ट्रैक छोड़ दिया गया",
+    "tracks_skipped_plural": "{{count}} ट्रैक छोड़े गए"
   }
 }
