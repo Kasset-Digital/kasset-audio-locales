@@ -23,6 +23,11 @@
       "refresh_catalog": "कैटलॉग रीफ़्रेश करें",
       "owned_badge": "✓ खरीद लिया",
       "apply_theme": "थीम लागू करें",
+      "high_contrast": {
+        "title": "उच्च कंट्रास्ट सक्रिय",
+        "message": "एक्सेसिबिलिटी के लिए उच्च कंट्रास्ट UI वर्तमान में सक्षम है, जो कस्टम थीम रंगों को ओवरराइड कर रहा है। क्या आप इस थीम को देखने के लिए उच्च कंट्रास्ट मोड को अक्षम करना चाहेंगे?",
+        "confirm": "अक्षम करें और लागू करें"
+      },
       "theme_applied_title": "थीम लागू की गई",
       "theme_applied_msg": "{{label}} अब सक्रिय है।",
       "theme_needs_restore": "थीम डेटा को पुनर्स्थापित करने की आवश्यकता है। इसे प्राप्त करने के लिए नीचे टैप करें।",
@@ -538,7 +543,9 @@
         "title": "समुदाय और समर्थन",
         "youtube_title": "Kasset Digital यूट्यूब",
         "youtube_sub": "रोमांचक वीडियो कहानियां और श्रृंखला",
-        "reddit_title": "Kasset सबरेडिट",
+        "ig_title": "Kasset Digital इंस्टाग्राम",
+        "ig_sub": "@kassetdigital को फॉलो करें",
+        "reddit_title": "Kasset Digital सबरेडिट",
         "reddit_sub": "r/KassetDigital समुदाय से जुड़ें!",
         "kofi_title": "डेवलपर का समर्थन करें",
         "kofi_sub": "Ko-fi पर मेरे लिए एक कॉफी खरीदें",
